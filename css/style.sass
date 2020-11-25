@@ -1,0 +1,941 @@
+* 
+	margin: 0
+body
+	background-color: #000
+h1, h3, p, h2, li, h4, a, span, button
+	font-family: 'Montserrat'
+	text-decoration: none
+	font-weight: 100
+	color: #fff
+	letter-spacing: 0.8px
+p, input, textarea, button
+	font-family: 'Montserrat'
+	// font-weight: normal
+	font-weight: 100
+	font-size: 19px
+textarea, input, button 
+	outline: 0
+h3
+	font-size: 20px
+input 
+	-webkit-border-radius:0px
+	-moz-border-radius:0px
+	-khtml-border-radius:0px
+	-o-border-radius:0px
+	-ms-border-radius:0px
+	box-shadow: unset
+// .all
+// 	position: relative
+// 	left: 0
+// 	transition: all 1s ease
+// 	transform: translate(0,0)
+// .all-js
+// 	display: none
+// .all-1
+// 	transform: translate(-20%)!important
+// 	transition: all 1s ease!important
+// .all-bl
+// 	background-color: rgba(0,0,0,0.5)
+// 	position: fixed
+// 	width: 100%
+// 	height: 100vh
+// 	top: 0
+// 	z-index: 999
+// 	display: none
+.body1 
+	overflow: hidden
+.loader
+	width: 100%
+	height: 100%
+	position: fixed
+	top: 0
+	z-index: 99999998888888888
+	background-color: #BB7A44
+	transition: all 1s ease
+	img 
+		width: 300px
+		position: relative
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+	h1 
+		font-size: 20px
+		text-align: center
+		position: relative
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+.toggle1 
+	mix-blend-mode: difference
+.toggle11
+	mix-blend-mode: difference
+.all-1 
+	transform: translate(-30%)!important
+	transition: all 1s ease!important
+.all 
+	transition: all 1s ease!important
+.all-2
+	transform: translate(0)!important
+	transition: all 1s ease!important
+.menu-sm 
+	width: 30%
+	height: 100vh
+	position: fixed
+	overflow: scroll
+	background-color: #fff
+	z-index: 9999999999
+	right: 0
+	top: 0
+	transform: translateX(100%)
+	transition: all 1s ease
+	padding: 0px 0
+	h3 
+		color: #111
+		padding: 15px 50px
+		a
+			color: #111
+			font-size: 16px
+	.text 
+		padding: 50px 0 10px
+	.fa-instagram
+		font-size: 20px
+	.click-on-1
+		float: right
+		padding: 21px 0
+		margin: 10px 10px
+		z-index: 1001
+		position: relative
+		right: 0
+	.line-1-1, .line-2-1
+		width: 25px
+		height: 3px 
+		margin: 6px 0
+		background-color: #111
+		transition: all .2s ease
+	.line-1-1 
+		transform: rotate(-45deg) translate(-3px, 2.5px)
+	.line-2-1
+		transform: rotate(45deg) translate(-3.5px, -3.5px)
+.toggle
+	top: 0!important
+	// display: block!important
+	transition: all .3s ease
+.black
+	width: 100%
+	height: 100%
+	background-color: rgba(0,0,0,0.5)
+	position: fixed
+	top: 0
+	z-index: 99999999
+	display: none
+.right-toggle 
+	transform: translate(0,0)!important
+	transition: all 1s ease
+// HEADER
+
+.head
+	// border: 1px solid red
+	height: 750px
+	background: url('../img/shtory-v-stile-shale-40.jpg')
+	background-size: cover 
+	background-position: center
+	position: relative
+	z-index: 999999
+	.row 
+		// border: 1px solid red
+		margin: 0
+		height: 100%
+		background-color: rgba(187, 122, 68, 0.4)
+	.container 
+		padding: 0
+		.top-menu 
+			// padding: 0
+			// border: 1px solid red
+			padding: 20px 0 
+			.logo 
+				// border: 1px solid blue
+				position: relative
+				padding: 0
+				h1
+					text-transform: uppercase
+					font-weight: 500
+					font-size: 35px
+					margin: 0
+				img 
+					// border: 1px solid red
+					position: absolute
+					width: 180px
+					top: -70px
+				svg 
+					// border: 1px solid red
+					position: absolute
+					top: -70px
+					left: -50px
+			.phone 
+				// border: 1px solid blue
+				padding: 12px 0
+				h3 
+					text-align: right
+					font-size: 16px
+					display: inline-block
+					margin-left: 40px
+					text-align: right
+					a 	
+						color: #fff
+		.info 
+			// border: 1px solid red
+			padding: 0
+			margin-top: 72.5px
+			h1 
+				text-align: left
+				font-size: 45px
+				font-weight: 100
+				margin: 0 0 40px 0
+				line-height: 60px
+			.contact
+				// border: 1px solid blue
+				background-color: rgba(255,255,255,0.7)
+				padding: 25px 25px
+				h2 
+					text-align: center
+					font-size: 22px
+					color: #111
+					font-weight: 200
+					margin-bottom: 15px
+				.col-md-4
+					padding: 0 15px
+				input
+					width: 100%
+					text-align: center
+					font-size: 16px
+					border: none
+					color: #888
+					font-weight: 300
+					letter-spacing: 0.8px
+					padding: 8px 0
+					border: 1px solid #fff
+					&:focus
+						border: 1px solid #BB7A44
+				.button 
+					// border: 1px solid red
+					margin: 25px 0 0 0
+					padding: 0
+					.col-md-4 
+						// padding: 0
+					button 
+						width: 100%
+						margin: auto
+						padding: 6.5px 25px
+						font-size: 18px
+						font-weight: 300
+						border: 0
+						color: #fff
+						background-color: #BB7A44
+						transition: all .3s ease
+						&:hover
+							opacity: .9
+// HEADER
+
+
+
+
+
+// FADE-MENU
+
+.fade-menu 
+	// border: 1px solid red
+	width: 100%
+	// height: 100%
+	position: fixed
+	top: -300px
+	z-index: 999999999
+	transition: all 1s ease!important
+	// display: none
+	img 
+		// border: 1px solid red
+		position: absolute
+		width: 180px
+		top: -50px
+		left: 0px
+	.click-on
+		float: right
+		margin: 10px 0
+		z-index: 1001
+		position: relative
+		right: 0
+		cursor: pointer
+		display: none
+	.line-1-1, .line-2-1
+		width: 25px
+		height: 3px
+		margin: 5px
+		background-color: #fff
+	.top
+		width: 100%
+		// border: 1px solid blue
+		height: 82px
+		background-color: rgba(187, 122, 68, 0.8)
+		.container
+			padding: 0
+		.button 
+			padding: 30px 0 
+		svg 
+			// border: 1px solid red
+			position: absolute
+			top: -52px
+			left: -50px
+		h3 
+			text-align: right
+			font-size: 16px
+			display: inline-block
+			margin-left: 40px
+			text-align: right
+			a 	
+				color: #fff
+				&:hover:after
+					width: 100%
+				&:after
+					width: 100%
+					background-color: #fff
+					display: block
+					content: ""
+					height: 3px
+					width: 0%
+					transition: width .4s ease-in-out
+
+.bottom-menu 
+	// border: 1px solid blue
+	position: fixed 
+	bottom: 0
+	width: 100%
+	// mix-blend-mode: difference
+	z-index: 9999999
+	transition: all 1s ease!important
+	.container
+		padding: 0
+		.col-md-6
+			padding: 30px 0
+			h3
+				font-size: 16px
+				a 	
+					color: #fff
+			svg 
+				z-index: 9999999
+		.instagram
+			padding: 26px 0
+			.fa-instagram
+				font-size: 30px
+// FADE-MENU	
+
+
+
+
+
+
+
+// NUMBERS
+
+.numbers 
+	// background-color: #f5f5f5
+	background-color: #fff
+	position: relative
+	z-index: 999999
+	.container
+		padding: 85px 0
+		h1
+			color: #111
+			font-size: 30px
+			font-weight: 500
+			text-transform: uppercase
+			text-align: center
+			margin: 0 0 30px 0
+		.item1
+			// border: 1px solid red
+			padding: 0 40px
+			.owl-nav
+				display: none
+			.owl-dots
+				display: none
+			.img
+				height: 230px
+				background-size: cover 
+				background-position: center
+			.text 
+				height: 170px
+				border-left: 1px solid #dcdcdc
+				border-right: 1px solid #dcdcdc
+				padding: 0 15px 
+				h2 
+					font-size: 20px
+					color: #111
+					text-align: center
+					font-weight: 500
+					text-transform: uppercase
+					padding: 15px 0 10px
+				p 
+					font-size: 16px
+					color: #111
+					font-weight: 100
+					text-align: center
+					padding-bottom: 10px
+			.price
+				background-color: #C4B6B6
+				h3
+					font-size: 18px
+					font-weight: 300
+					color: #111
+					text-align: center
+					padding: 10px 0
+			button 
+				background-color: #BB7A44
+				border: none
+				color: #fff
+				width: 100%
+				font-size: 18px
+				text-transform: uppercase
+				padding: 10px 0
+				transition: all .3s ease
+				&:hover
+					opacity: .9
+.form-numbers
+	width: 100%
+	height: 100%
+	position: fixed
+	top: 0
+	background-color: rgba(0,0,0,0.8)
+	z-index: 9999999999
+	display: none
+	.all-form
+		width: 100%
+		height: 100%
+	.item
+		border:1px solid #BB7A44
+		width: 400px
+		height: 400px
+		background-color: #fff
+		padding: 50px 50px
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+		h2 
+			color: #111
+			font-size: 20px
+			margin-bottom: 10px
+		input
+			width: 100%
+			text-align: center
+			font-size: 16px
+			border: 1px solid #707070
+			color: #888
+			font-weight: 300
+			letter-spacing: 0.8px
+			padding: 8px 0
+			margin: 10px 0
+			&:focus
+				border: 1px solid #BB7A44
+		button 
+			width: 100%
+			margin: auto
+			padding: 6.5px 25px
+			font-size: 18px
+			font-weight: 300
+			border: 0
+			color: #fff
+			margin-top: 10px
+			background-color: #BB7A44
+			transition: all .3s ease
+			&:hover
+				opacity: .9
+	.click-on-11
+		float: right
+		// padding: 21px 0
+		// margin: 10px 10px
+		z-index: 1001
+		position: absolute
+		right: 50px
+		top: 30px
+	.line-1-1, .line-2-1
+		width: 40px
+		height: 3px 
+		margin: 6px 0
+		background-color: #fff
+		transition: all .2s ease
+	.line-1-1 
+		transform: rotate(-45deg) translate(-3px, 2.5px)
+	.line-2-1
+		transform: rotate(45deg) translate(-3.5px, -3.5px)
+
+
+
+
+.form-numbers1
+	width: 100%
+	height: 100%
+	position: fixed
+	top: 0
+	background-color: rgba(0,0,0,0.8)
+	z-index: 9999999999
+	display: none
+	overflow: auto
+	// display: none
+	.all-form
+		width: 100%
+		height: 100%
+	.item1
+		border:1px solid #BB7A44
+		width: 60%
+		height: 500px
+		background-color: #fff
+		padding: 50px 50px
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+	.owl-carousel
+		// border: 1px solid red
+		width: 40%
+		float: left
+		.owl-dots
+			display: none
+		.owl-prev, .owl-next
+			border: 1px solid #111!important
+			margin-top: 10px
+		.owl-next 
+			margin-left: 10px
+		span 
+			color: #111
+			font-size: 40px
+			padding: 0 15px
+		.item 
+			width: 100%
+			height: 350px
+			.img
+				height: 100%
+				background-size: cover
+				background-position: center
+	.contact 
+		// border: 1px solid red
+		width: 50%
+		float: right
+		// margin-left: 50px
+		h2 
+			color: #111
+			font-size: 20px
+			margin-bottom: 10px
+			text-align: left
+		input
+			width: 100%
+			text-align: center
+			font-size: 16px
+			border: 1px solid #707070
+			color: #888
+			font-weight: 300
+			letter-spacing: 0.8px
+			padding: 8px 0
+			margin: 10px 0
+			&:focus
+				border: 1px solid #BB7A44
+		button 
+			width: 100%
+			margin: auto
+			padding: 6.5px 25px
+			font-size: 18px
+			font-weight: 300
+			border: 0
+			color: #fff
+			margin-top: 10px
+			background-color: #BB7A44
+			transition: all .3s ease
+			&:hover
+				opacity: .9
+		a, h3 	
+			color: #111
+			font-size: 18px
+			text-align: right
+			padding: 0 0 8px
+		.h3
+			width: 100%
+	.click-on-11
+		float: right
+		// padding: 21px 0
+		// margin: 10px 10px
+		z-index: 1001
+		position: absolute
+		right: 50px
+		top: 30px
+	.line-1-1, .line-2-1
+		width: 40px
+		height: 3px 
+		margin: 6px 0
+		background-color: #fff
+		transition: all .2s ease
+	.line-1-1 
+		transform: rotate(-45deg) translate(-3px, 2.5px)
+	.line-2-1
+		transform: rotate(45deg) translate(-3.5px, -3.5px)
+
+// NUMBERS
+
+
+// ADVANTAGES
+
+.advantages 
+	// border: 1px solid red
+	background: url('../img/chalet-la-datcha-courchevel-1850-bedroom-5-1.jpg')
+	background-size: cover 
+	background-position: center
+	position: relative
+	z-index: 999999
+	.row
+		background-color: rgba(57, 49, 29, 0.7)
+		padding: 85px 0
+		margin: 0
+	.container 
+		padding: 0
+		h1 
+			color: #fff
+			font-size: 30px
+			font-weight: 500
+			text-transform: uppercase
+			text-align: center
+			margin: 0 0 30px 0
+		.item
+			// border: 1px solid blue
+			background-color: rgba(255,255,255,0.7)
+			padding: 25px 0 10px
+			.info
+				
+				// border: 1px solid red
+				height: 230px
+				padding: 25px
+				img
+					width: 35%
+				h3 
+					color: #111
+					padding-top: 10px
+					font-size: 18px
+					text-align: center
+// ADVANTAGES
+
+
+
+
+// STAGES
+
+.stage
+	// background-color: #f5f5f5
+	background-color: #f5f5f5
+	padding: 50px 0
+	// border: 1px solid red
+	position: relative
+	z-index: 999999
+	.container
+		padding: 85px 0
+		h1
+			color: #111
+			font-size: 30px
+			font-weight: 500
+			text-transform: uppercase
+			text-align: center
+			margin: 0 0 30px 0	
+		.info
+			// border: 1px solid blue
+			padding: 0
+			.item
+				padding: 0 20px
+				.radius
+					height: 244.5px
+					border: 5px solid #C4B6B6
+					background-color: #fff
+					border-radius: 100%
+					padding: 0 20px
+					position: relative
+					z-index: 999
+					img 
+						width: 33%
+						margin-top: 30px
+					p 
+						font-size: 16px
+						color: #111
+						padding-top: 10px
+						font-weight: 300
+				.radius2 
+					width: 100px
+					height: 100px
+					border-radius: 100%
+					position: relative
+					background-color: #fff
+					z-index: 1000
+					bottom: 30px
+					border: 5px solid #C4B6B6
+					h1
+						margin: 25px 0
+						color: #39311D
+			button
+				background-color: #BB7A44
+				color: #fff
+				z-index: 99999999
+				position: relative
+				border: none
+				// width: 100%
+				font-size: 18px
+				text-transform: uppercase
+				padding: 10px 35px
+				transition: all .3s ease
+				&:hover
+					opacity: .9
+
+// STAGES
+
+
+
+// gallery
+
+.gallery
+	position: relative
+	z-index: 999999
+	background-color: #fff
+	.container
+		padding: 85px 0
+		h1
+			color: #111
+			font-size: 30px
+			font-weight: 500
+			text-transform: uppercase
+			text-align: center
+			margin: 0 0 30px 0	
+		#owl
+			// border: 1px solid red
+			position: relative
+			z-index: 999999
+			.item
+				// height: 100px
+				.img
+					border: 1px solid #707070
+					width: 700px
+					height: 450px
+					background-position: top
+					background-size: cover
+				.text 
+					position: absolute
+					bottom: 0
+					padding: 20px
+					width: 40%
+					background-color: rgba(0,0,0,0.5)
+					h2
+						text-align: left
+						font-size: 18px
+			.owl-nav
+				display: block
+				// border: 1px solid red
+				position: absolute 
+				top: 70px
+				width: 100%
+				.owl-prev
+					top: 30px
+					left: 100px
+					position: absolute
+				.owl-next
+					position: absolute
+					top: 30px
+					right: 100px
+				button 
+					// border: 1px solid red
+					span 
+						color: rgba(57, 49, 29)
+						font-size: 130px
+			.owl-dots
+				// border: 1px solid red
+				padding-top: 20px
+				button 
+					border: 1.5px solid #BB7A44
+					width: 15px 
+					height: 15px
+					border-radius: 100%
+					margin: 0 15px
+				.active
+					background-color: #BB7A44
+// gallery
+
+
+
+// REVIEWS
+
+.reviews
+	// padding: 70px 0
+	// background-color: #f9f9f9
+	background-color: #fff
+	.container
+		padding: 85px 0
+		h1
+			color: #111
+			font-size: 30px
+			font-weight: 500
+			text-transform: uppercase
+			text-align: center
+			margin: 0 0 50px
+		#owl
+			// border: 1px solid red
+			.item
+				// height: 100px
+				.img
+					border: 1px solid #707070
+					width: 100px
+					height: 100px
+					border-radius: 100%
+					background-position: top
+					background-size: cover
+				h3
+					font-weight: 300
+					font-size: 20px
+					padding: 10px 0
+				p 
+					font-size: 16px
+				h3, p 
+					color: #111
+					// font-size: 18px
+					text-align: center
+			.owl-nav
+				display: block
+				// border: 1px solid red
+				position: absolute 
+				top: 70px
+				width: 100%
+				.owl-prev
+					left: -40px
+					position: absolute
+				.owl-next
+					position: absolute
+					right: -40px
+				button 
+					// border: 1px solid red
+					span 
+						color: rgba(57, 49, 29)
+						font-size: 80px
+			.owl-dots
+				// border: 1px solid red
+				padding-top: 20px
+				button 
+					border: 1.5px solid #BB7A44
+					width: 15px 
+					height: 15px
+					border-radius: 100%
+					margin: 0 15px
+				.active
+					background-color: #BB7A44
+//REVIEWS
+
+
+
+
+
+
+//MAP
+.map 	
+	position: relative
+	z-index: 999999
+	.container
+		padding: 0
+	.item1
+		width: 1170px
+		height: 400px
+		position: absolute
+		top: 0
+		z-index: 999999
+	.item 
+		width: 370px
+		height: 340px
+		position: absolute
+		z-index: 99999
+		top: 30px
+		right: 100px
+		bottom: 120px
+		background-color: rgba(255,255,255, 0.8)
+		padding: 20px 
+		h2
+			color: #111
+			font-size: 20px
+			text-align: center
+			font-weight: 200
+		input
+			width: 100%
+			text-align: center
+			font-size: 16px
+			border: 1px solid #707070
+			color: #888
+			font-weight: 300
+			letter-spacing: 0.8px
+			padding: 8px 0
+			margin: 10px 0
+			&:focus
+				border: 1px solid #BB7A44
+		button 
+			width: 100%
+			margin: auto
+			padding: 6.5px 25px
+			font-size: 18px
+			font-weight: 300
+			border: 0
+			color: #fff
+			margin-top: 10px
+			background-color: #BB7A44
+			transition: all .3s ease
+			&:hover
+				opacity: .9
+
+//MAP
+
+
+//FOOTER
+footer
+	background-color: #BB7A44
+	position: relative
+	z-index: 9999999
+	.container
+		padding: 0
+		.top-menu 
+			// padding: 0
+			// border: 1px solid red
+			padding: 15px 0 
+			.logo 
+				// border: 1px solid blue
+				padding: 0
+				h1
+					text-transform: uppercase
+					font-weight: 500
+					font-size: 35px
+					margin: 0
+				img 
+					// border: 1px solid red
+					// position: absolute
+					width: 88px
+					// top: 70px
+				svg 
+					// border: 1px solid red
+					position: absolute
+					top: -70px
+					left: -50px
+			.phone 
+				// border: 1px solid blue
+				padding: 19px 0
+				h3 
+					text-align: right
+					font-size: 16px
+					display: inline-block
+					margin-left: 40px
+					text-align: right
+					a 	
+						color: #fff
+
+//FOOTER
+
+
+
+
+
+
+
+
+
+

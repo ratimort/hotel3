@@ -1,0 +1,594 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+/* ЭТАПЫ */
+.stage .container .info .item {
+	padding: 0 10px;
+}
+.stage .container .info .item .radius {
+	height: 222.5px;
+}
+.stage .container .info .item .radius p {
+	font-size: 14px;
+}
+/* ЭТАПЫ */
+
+
+/* MENU */
+.fade-menu .top h3 {
+	margin-left: 25px;
+}
+/* MENU */
+.numbers .container .item .text {
+	height: 200px;
+}
+.map .item {
+	right: 60px;
+}
+.map .item1 {
+	width: 970px;
+}
+}
+
+@media only screen and (max-width: 1190px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 991px) {
+/* MENU */
+.fade-menu .top h3 {
+	display: none;
+}
+.fade-menu .click-on {
+	display: block;
+}
+.fade-menu .top .button {
+	padding: 21px 0;
+}
+.fade-menu .top .container {
+	padding: 0 20px 0 0;
+}
+/* MENU */
+.head {
+	height: 600px;
+}
+.head .container .top-menu .logo h1 {
+	 font-size: 30px;
+}
+.head .container .top-menu .phone {
+	padding: 10px 0;
+}
+.head .container .top-menu .phone h3 {
+	font-size: 16px;
+	margin-left: 20px;
+}
+.head .container .info {
+	margin-top: 62.5px;
+}
+.head .container .info h1 {
+	font-size: 40px;
+	line-height: 50px;
+}
+.head .container .info .contact h2 {
+	font-size: 20px;
+}
+.head .container .info .contact input {
+	font-size: 16px;
+}
+.head .container .info .contact .button button {
+	font-size: 16px;
+}
+
+/* НАШИ НОМЕРА */
+
+.numbers .container h1 {
+	font-size: 25px;
+}
+/*.numbers .container .item {
+	padding: 0 20px;
+}*/
+.numbers .container .item1 {
+	padding: 0 20px;
+}
+.numbers .container .item .img {
+	height: 190px;
+}
+.numbers .container .item .text {
+	/*height: 160px;*/
+}
+.numbers .container .item1 .text h2 {
+	font-size: 16px;
+}
+.numbers .container .item1 .text p {
+	font-size: 14px;
+}
+.numbers .container .item1 .price h3 {
+	font-size: 16px;
+}
+.numbers .container .item1 button {
+	font-size: 16px;
+}
+/* НАШИ НОМЕРА */
+
+
+/* ПРЕИМУЩЕСТВА */ 
+
+.advantages .container h1 {
+	font-size: 25px;
+}
+.advantages .container .item .info {
+	height: 180px;
+	padding: 15px;
+}
+.advantages .container .item .info img {
+	width: 35%;
+}
+.advantages .container .item .info h3 {
+	font-size: 16px;
+}
+
+/* ПРЕИМУЩЕСТВА */
+
+/* ЭТАПЫ */
+.stage .container h1 {
+	font-size: 25px;
+}
+.stage .container .info .item {
+	padding: 0 40px;
+}
+.stage .container .info .item .radius {
+	height: 295px;
+}
+.stage .container .info .item .radius p {
+	font-size: 14px;
+}
+.stage .container .info button {
+	font-size: 16px;
+}
+.stage .container .info .item .radius img {
+	margin-top: 60px;
+}
+/* ЭТАПЫ */
+
+
+/* ОТЗЫВЫ */
+
+.reviews .container h1 {
+	font-size: 25px;
+}
+.reviews .container #owl .item h3 {
+	font-size: 18px;
+}
+.reviews .container #owl .item p {
+	font-size: 14px;
+}
+
+/* ОТЗЫВЫ */
+.map .item {
+	width: 30%;
+	right: 40px;
+}
+.map .item1 {
+	width: 750px;
+}
+.map .item h2 {
+	font-size: 18px;
+}
+footer .container .top-menu .phone h3 {
+	font-size: 16px;
+}
+footer .container .top-menu .phone {
+	padding: 9px 0;
+}
+.form-numbers1 .item1 {
+	top: unset;
+	height: unset;
+}
+.form-numbers1 .owl-carousel {
+	width: 60%;
+}
+.form-numbers1 .contact {
+	width: 100%;
+	float: inherit;
+}
+.form-numbers1 .contact h2 {
+	font-size: 18px;
+}
+.form-numbers1 .contact input {
+	font-size: 14px;
+}
+.form-numbers1 .contact button {
+	font-size: 14px;
+}
+.form-numbers1 .contact a, .form-numbers1 .contact h3 {
+	font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 823px) {
+/* ОТЗЫВЫ */
+
+.reviews .container #owl .owl-nav {
+	display: none;
+}
+
+/* ОТЗЫВЫ */
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+.head .container {
+	padding: 0 20px;
+} 
+.head .container .top-menu .logo h1 {
+	 font-size: 22px;
+}
+.head .container .top-menu .phone {
+	padding: 0px 0;
+}
+.head .container .top-menu .phone h3 {
+	font-size: 12px;
+}
+.head .container .info {
+	margin-top: 12.5px;
+}
+.head .container .info h1 {
+	font-size: 26px;
+	line-height: 35px;
+	margin-bottom: 20px;
+}
+.head .container .info .contact h2 {
+	font-size: 14px;
+}
+.head .container .info .contact input {
+	font-size: 12px;
+}
+.head .container .info .contact .button {
+	margin: 0;
+}
+.head .container .info .contact .button button {
+	font-size: 12px;
+}
+.head .container .info .contact .col-md-4 {
+	padding: 0 0 10px 0;
+}
+
+/* НАШИ НОМЕРА */
+.numbers .container {
+	padding: 50px 0;
+}
+.numbers .container h1 {
+	font-size: 22px;
+}
+.numbers .container .item1 {
+	padding: 0 20px 30px;
+}
+
+.numbers .container .item1 .text {
+	height: 140px;
+	padding: 0 5px;
+}
+.numbers .container .item1 .text h2 {
+	font-size: 12px;
+	padding: 10px 0 5px;
+}
+.numbers .container .item1 .text p {
+	font-size: 12px;
+}
+.numbers .container .item1 .price h3 {
+	font-size: 12px;
+}
+.numbers .container .item1 button {
+	font-size: 12px;
+}
+/* НАШИ НОМЕРА */
+
+/* ПРЕИМУЩЕСТВА */ 
+.advantages .container .item .info img {
+	width: 28%;
+}
+.advantages .container h1 {
+	font-size: 22px;
+}
+
+.advantages .container .item .info h3 {
+	font-size: 14px;
+}
+
+/* ПРЕИМУЩЕСТВА */
+
+/* ЭТАПЫ */
+.stage .container h1 {
+	font-size: 22px;
+}
+.stage .container .info .item {
+	padding: 0 40px;
+}
+.stage .container .info .item .radius {
+	width: 245px;
+	height: 245px;
+	padding: 0 30px;
+}
+.stage .container .info .item .radius p {
+	font-size: 14px;
+}
+.stage .container .info button {
+	font-size: 16px;
+}
+.stage .container .info .item .radius img {
+	margin-top: 60px;
+}
+.stage .container .info .item .radius2 h1 {
+	margin: 30px 0;
+}
+/* ЭТАПЫ */
+.menu-sm {
+	width: 300px;
+}
+.menu-sm h3 {
+	padding: 15px 20px;
+}
+.all-1 {
+	transform: translate(-300px)!important;
+}
+.bottom-menu .container {
+	padding: 0 20px 0 0;
+}
+.head .container .top-menu .logo img {
+	left: -45px;
+}
+.fade-menu img {
+	left: -25px;
+	top: -50px;
+}
+.head .container .top-menu {
+	/*padding: 0 0 0 20px;*/
+}
+.form-numbers .item h2 {
+	font-size: 16px;
+}
+.form-numbers .line-1-1, .form-numbers .line-2-1 {
+	width: 30px;
+}
+.form-numbers .item input {
+	font-size: 14px;
+}
+.form-numbers .item button {
+	font-size: 14px;
+}
+.gallery .container {
+	padding: 85px 20%;
+}
+.gallery .container #owl .item .img {
+	width: 100%;
+	height: 330px;
+}
+.gallery .container #owl .owl-nav .owl-prev {
+	left: -20%;
+}
+.gallery .container #owl .owl-nav .owl-next {
+	right: -20%;
+}
+.gallery .container #owl .owl-nav button span {
+	font-size: 80px;
+}
+.gallery .container #owl .item .text {
+	width: 80%;
+}
+.gallery .container #owl .item .text h2 {
+	font-size: 14px;
+}
+.gallery .container #owl .owl-dots button {
+	width: 10px;
+	height: 10px;
+	margin: 0 10px;
+}
+.reviews .container #owl .owl-dots button {
+	width: 10px;
+	height: 10px;
+	margin: 0 10px;
+}
+.map .item {
+	width: 50%;
+	height: 80%;
+	top: 0;
+	right: 0px;
+}
+.map .item1 {
+	width: 100%;
+}
+.map .item h2 {
+	font-size: 14px;
+} 
+.map .item input {
+	font-size: 14px;
+}
+.map .item button {
+	font-size: 14px;
+}
+footer .container {
+	padding: 0 20px;
+}
+footer .container .top-menu .phone h3 {
+	font-size: 14px;
+}
+.form-numbers1 .owl-carousel {
+	width: 80%;
+}
+.form-numbers1 .line-1-1, .form-numbers1 .line-2-1 {
+	width: 30px;
+}
+}
+
+@media only screen and (max-width: 736px) {
+
+
+}
+
+@media only screen and (max-width: 667px) {
+.gallery .container {
+	padding: 85px 10%;
+}
+.gallery .container #owl .owl-nav  {
+	display: none;
+}
+
+}
+
+@media only screen and (max-width: 650px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+/* НАШИ НОМЕРА */
+.numbers .container .item1 {
+	width: 100%;
+	padding: 0 120px 30px;
+}
+.numbers .container .item1 .text {
+	height: 90px;
+	padding: 0 5px;
+} 
+.numbers .container .item1 .img {
+	height: 200px;
+}
+/* НАШИ НОМЕРА */
+.form-numbers .click-on-11 {
+	right: 10px;
+}
+.gallery .container #owl .item .img {
+	height: 300px;
+}
+.form-numbers1 .click-on-11 {
+	right: 10px;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 570px) {
+.numbers .container .item1 {
+	width: 100%;
+	padding: 0 80px 30px;
+}
+footer .container .top-menu .phone {
+	padding: 0;
+}
+}
+
+@media only screen and (max-width: 519px) {
+.head .container .top-menu .logo img {
+	top: -60px;
+}
+.menu-sm {
+	width: 200px;
+}
+.all-1 {
+	transform: translate(-200px)!important;
+}
+
+.form-numbers .item {
+	width: 90%;
+	height: 360px;
+	padding: 30px;
+} 
+.map .item1 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0px;
+	position: relative;
+}
+.map .item {
+	width: 100%;
+	height: 80%;
+	top: 0;
+	right: 0px;
+	padding-bottom: 50px;
+	position: relative;
+} 
+.map .item input {
+	margin: 10px 0;
+}
+#ymaps1605920377697589021 {
+	height: 350px!important;
+}
+.form-numbers1 .item1 {
+	width: 80%;
+	padding: 25px;
+	transform: translate(-50%, -60%);
+}
+.form-numbers1 .owl-carousel {
+	width: 80%;
+	height: 
+} 
+.form-numbers1 .owl-carousel .item {
+	height: 300px;
+}
+}
+@media only screen and (max-width: 420px) {
+/*.numbers .container .item {
+	width: 100%;
+	padding: 0 20px 30px;
+}*/
+.numbers .container .item1 {
+	padding: 0 40px 30px;
+}
+.numbers .container .item1 .text {
+	height: 110px;
+}
+}
+
+@media only screen and (max-width: 380px) {
+.advantages .container .item .info {
+	height: 160px;
+	padding: 15px;
+	width: 100%;
+}
+.numbers .container .item1 {
+	padding: 0 40px 30px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+}
+@media only screen and (min-width: 1800px) {
+
+}
+@media only screen and (min-width: 2300px) {
+
+}
